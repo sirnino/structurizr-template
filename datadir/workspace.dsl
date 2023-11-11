@@ -1,11 +1,13 @@
 workspace {
 
     !identifiers hierarchical
+    !docs docs
+    !adrs adrs
 
     model {
         !include includes/people.dsl
         !include includes/softwareSystems
-        !include relationships.dsl
+        !include includes/relationships.dsl
     }
 
     views {
